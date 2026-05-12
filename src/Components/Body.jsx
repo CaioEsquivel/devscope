@@ -12,18 +12,12 @@ import { useState, useEffect } from "react"
 export const Body = ({filtered,SetFiltered})=>{
 
     const [limit,SetLimit] = useState(6)
-    useEffect(()=>{
+        useEffect(()=>{
 
         const handleResizing = ()=>{
-            if(window.innerWidth >= 1400){
-                SetLimit(9)
-            }else if(window.innerWidth >= 1024){
-                
-                SetLimit(6)
-            }else{
-                SetLimit(4)
-
-            }
+             if(window.innerWidth >= 1400){
+            SetLimit(prev => prev < 9 ? 9 : prev) 
+        }
 
         }
         handleResizing()
