@@ -1,16 +1,78 @@
-# React + Vite
+# 📚 DevBlog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A developer-focused article and course platform built with React — practice project exploring component architecture, state management and responsive UI.
 
-Currently, two official plugins are available:
+## 🛠️ Technologies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React (Vite)
+- CSS3
+- [Remix Icons](https://remixicon.com/)
 
-## React Compiler
+## 📁 Project Structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```
+devblog/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+└── package.json
+```
 
-## Expanding the ESLint configuration
+## 🚀 How to Run
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/your-username/devblog.git
+cd devblog
+npm install
+npm run dev
+```
+
+## ✨ Features
+
+- Article cards with category tags and authors
+- Search bar with mobile popup version
+- Responsive header with compact nav ("More" dropdown)
+- Notification popup
+- User profile panel with active course progress (progress bar, lesson count, duration)
+- Popular topics filter (Frontend, Backend, DevOps, React, etc.)
+- Trending articles sidebar
+- Newsletter subscription section
+- "Load more" articles button
+
+## 🎯 What I Practiced
+
+- React component structure and composition
+- Conditional rendering and UI state (open/close popups, active nav)
+- Responsive design patterns
+- Real-world UI patterns (profile panels, notification systems, search overlays)
+
+---
+
+## 🇧🇷 Português
+
+Plataforma de artigos e cursos voltada para desenvolvedores, construída com React como projeto de prática.
+
+### Tecnologias
+
+- React com Vite, CSS3, Remix Icons
+
+### Como rodar
+
+```bash
+npm install
+npm run dev
+```
+
+### O que pratiquei
+
+- Estrutura e composição de componentes React
+- Renderização condicional e estado de UI (popups, nav ativa)
+- Design responsivo
+- Padrões reais de interface (painel de perfil, notificações, busca mobile)
+
+---
+
+*Project developed for learning purposes.*
