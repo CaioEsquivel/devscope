@@ -1,4 +1,4 @@
-# 📚 DevBlog
+# 📚 DevScope
 
 A developer-focused article and course platform built with React — practice project exploring component architecture, state management and responsive UI.
 
